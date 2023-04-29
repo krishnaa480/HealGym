@@ -327,7 +327,7 @@ body{
 
 /*section backgrounfd banner start here  */
 .background-img{
-    background-image: url('/HealGym/img/old.jpg');
+    background-image: url('../img/old.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -451,7 +451,7 @@ hr #cstm {
 .wraper-join{
     width: 100%;
     height: 700px;
-    background-image: url("/HealGym/img/ropeold.jpg");
+    background-image: url("../HealGym/img/ropeold.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -539,7 +539,7 @@ form input:hover{
 
 
 .left-five{
-    background-image: url('/HealGym/img/new6.jpg');
+    background-image: url('../HealGym/img/new6.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -549,7 +549,7 @@ form input:hover{
 }
 
 .left-five1{
-    background-image: url('/HealGym/img/new4.jpg');
+    background-image: url('../HealGym/img/new4.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -871,7 +871,7 @@ line-height: 25px;
     }
 
     .left-five{
-        background-image: url('/HealGym/img/new6.jpg');
+        background-image: url('../HealGym/img/new6.jpg');
         background-position:40%;
         background-attachment: fixed;
         background-size:cover;
