@@ -25,10 +25,10 @@ body{
 }
 
 .logo img{
-    width: 120px;
+    width: 80px;
     position:absolute;
-    top:1%;
-    left: 0;
+    top:5%;
+    left: 2%;
     text-shadow: 0px !important;
 }
 
@@ -125,11 +125,11 @@ body{
 
 
 .master{
-    background-image: url('../img/Fullbanner01.jpg') ;
-    background-size: cover;
-    background-position: center;
+    background-image: url('../img/Saif_khan.jpg') ;
+    background-size:100% 100%;
+    background-position:center;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     width: 100%;
     height:600px;
     display: flex;
@@ -149,11 +149,73 @@ body{
     letter-spacing: 1px;
     text-transform: capitalize;
 }
-.flex p{
+.flex h2{
     margin-top: 10px;
-    font-size: 20px;
-
+    font-size:15px;
 }
+
+.flex span{
+    color: rgb(252, 116, 66);
+    animation: color 5s linear  infinite;
+}
+
+@keyframes color {
+    0%{
+        color: orangered;
+       
+    }
+
+    10%{
+        color: blue;
+       
+    }
+
+    20%{
+        color: blueviolet;
+        
+    }
+
+    30%{
+        color: greenyellow;
+      
+    }
+
+    40%{
+        color: yellow;
+       
+    }
+
+    50%{
+        color:pink;
+        
+    }
+
+    60%{
+        color: palevioletred;
+        
+    }
+
+    70%{
+        color: aqua;
+        
+    }
+
+    80%{
+        color: skyblue;
+        
+    }
+
+    90%{
+        color:cyan;
+        
+    }
+
+    100%{
+        color:orange;
+        
+    }
+}
+
 
 .btn{
     border-radius: 5px;
@@ -251,6 +313,12 @@ body{
     color: #7f9ead;
   }
 
+  .content h1{
+    font-size: 15px;
+    color: #7f9ead;
+
+  }
+
 /*section backgrounfd banner start here  */
 .background-img{
     background-image: url('/HealGym/img/old.jpg');
@@ -341,14 +409,18 @@ hr #cstm {
 .seprate{
     display: flex;
     flex-direction:row;
-    justify-content: space-around;
-    margin: 30px 20px;
+    justify-content:space-around;
+    margin: 30px 10px;
 }
-
+#fix-part{
+    position: relative;
+    right:50px;
+}
 .seprate h1,h3{
     color: white;
     font-weight: 100;
 }
+
 
 .cstm-btn{
     background-color: orangered;
@@ -891,6 +963,16 @@ line-height: 25px;
         font-size: 30px;
     }
     /* seven section font issue fix */
+
+    #fix-part{
+        position: relative;
+        right:0px;
+        /* font-size: 12px; */
+    }
+
+    .seprate h1, h3{
+        font-size: 9px;
+    }
 
 
 
