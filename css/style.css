@@ -570,9 +570,10 @@ form input:hover{
     font-size: 60px;
 }
 .right-five p{
+    font-size: 30px;
     padding: 10px;
     color: #fff;
-line-height: 25px;
+line-height: 45px;
 }
 /* five section end here */
 
