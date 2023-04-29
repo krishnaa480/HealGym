@@ -319,6 +319,12 @@ body{
 
   }
 
+  .content p{
+    margin-top: 5px;
+    text-align:center;
+    font-size: 13px;
+  }
+
 /*section backgrounfd banner start here  */
 .background-img{
     background-image: url('/HealGym/img/old.jpg');
