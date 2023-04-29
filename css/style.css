@@ -539,7 +539,7 @@ form input:hover{
 
 
 .left-five{
-    background-image: url('../img/new6.jpg');
+    background-image: url('../img/Motivation.png');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -549,7 +549,7 @@ form input:hover{
 }
 
 .left-five1{
-    background-image: url('../img/new4.jpg');
+    background-image: url('../img/ten.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -871,7 +871,7 @@ line-height: 25px;
     }
 
     .left-five{
-        background-image: url('../img/new6.jpg');
+        background-image: url('../img/Motivation.png');
         background-position:40%;
         background-attachment: fixed;
         background-size:cover;
