@@ -222,7 +222,7 @@ body{
     border: 0px;
     padding: 10px;
     margin-top: 20px;
-    width: 100px;
+    width: 120px;
     background-color: rgba(255, 75, 10, 0.88);
     color: white;
     letter-spacing: 1px;
@@ -245,6 +245,7 @@ body{
     font-size: 40px;
     color:white;
     text-transform:uppercase;
+    margin-top: 10px;
 }
 
 
@@ -909,6 +910,10 @@ line-height: 45px;
 }
 /* eight section end here */
 
+a{
+    text-decoration:none;
+    color:white;
+}
 
 @media only screen and (max-width:900px) {
     .master{
