@@ -4,7 +4,7 @@ $(".ham-burger").click(function(){
   });
 
   let title = document.querySelector('.main_heading');
-  let name = "PANNA HEALTH & SPORTS CLUB"
+  let name = "HEAL HEALTH & SPORTS CLUB"
   let index = 1;
   
   const typeWriter = () => {
