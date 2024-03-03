@@ -3,6 +3,7 @@
     padding: 0;
     /* border: 1px solid red; */
     box-sizing: border-box;
+    scroll-top:0;
 }
 body{
     margin: 0;
@@ -424,10 +425,10 @@ hr #cstm {
     justify-content:space-around;
     margin: 30px 10px;
 }
-#fix-part{
+/* #fix-part{
     position: relative;
     right:50px;
-}
+} */
 .seprate h1,h3{
     color: white;
     font-weight: 100;
@@ -786,7 +787,7 @@ line-height: 45px;
 .images-part2{
     background-image: url('../img/women2.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:100% 30%;
     background-size: cover;
     width: 100%;
     height:100px;
@@ -805,7 +806,7 @@ line-height: 45px;
 .images-part3{
     background-image: url('../img/men1.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:97% 15%;
     background-size: cover;
     /* border-radius:50px; */
     box-shadow: 0px .4px 3px white;
@@ -824,7 +825,7 @@ line-height: 45px;
 .images-part4{
     background-image: url('../img/bannerlift.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:97% 32%;
     background-size: cover;
     width: 100%;
     height:100px;
@@ -855,11 +856,11 @@ line-height: 45px;
     border-right:30px solid yellow ;
     /* border-left:50px solid yellow ; */
     margin-bottom: 30px;
-    transition-duration: .4s;
+    transition-duration: .8s;
 }
 
 .seven-section:hover{
-    border-right:30px solid rgb(255, 187, 0) ;
+    border-right:30px solid rgb(208, 0, 255) ;
     /* border-left:40px solid rgb(255, 187, 0) ; */
 }
 
@@ -1141,11 +1142,11 @@ a{
     }
     /* seven section font issue fix */
 
-    #fix-part{
+    /* #fix-part{
         position: relative;
         right:0px;
-        /* font-size: 12px; */
-    }
+        font-size: 12px;
+    } */
 
     .seprate h1, h3{
         font-size: 9px;
