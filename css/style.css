@@ -133,7 +133,7 @@ border-radius: 100%;
 .master{
     background-image: url('../img/Rope.jpg') ;
     background-size:cover;
-    background-position:center;
+    background-position:100% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
