@@ -3,7 +3,9 @@
     padding: 0;
     /* border: 1px solid red; */
     box-sizing: border-box;
-    scroll-top:0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 body{
     margin: 0;
@@ -96,10 +98,10 @@ border-radius: 100%;
     .menu{
         width: 100%;
         max-width:100%;
-        height: 200px;
+        height:auto;
         position:absolute;
         background: #172b4d;
-        top: 90px;
+        top: 80px;
         right: 0px;
         display:none;
         padding: 20px 40px;
@@ -141,13 +143,16 @@ border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
 
 
 
 .flex{
     color: white;
     text-align: center;
+    
 }
 
 .flex h1{
@@ -265,6 +270,7 @@ border-radius: 100%;
     margin-top: 150px;
     margin-bottom:150px;
     
+    
 }
 
 
@@ -305,7 +311,7 @@ border-radius: 100%;
   .content {
     padding: 10px 20px;
     text-align: center;
-    transform: translateY(-350px);
+    transform: translateY(-240px);
     opacity: 0;
     transition: 0.3s;
     
@@ -692,20 +698,23 @@ form input:hover{
 
 
 .left-five{
-    background-image: url('../img/Motivation.png');
+    background-image: url('../img/motivation.png');
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
     /* background-color: blue; */
     width: 100%;
     height: 400px;
+    
 }
 
 .left-five1{
     background-image: url('../img/ten.jpg');
-    background-position: center;
+    background-position:100% 4%;
     background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
     /* background-color: blue; */
     width: 100%;
     height: 400px;
@@ -752,6 +761,7 @@ line-height: 45px;
     /* background-color:pink; */
     width: 100%;
     height: auto;
+    /* transition-delay: .5; */
 }
 
 .hover-me h2{
@@ -773,7 +783,7 @@ line-height: 45px;
     width: 100%;
     height:100px;
     margin-top: 10px;
-    transition-duration:.4s;
+    transition-duration:.8s;
     box-shadow: 0px .4px 3px white;
     /* border-radius:50px; */
 
@@ -792,7 +802,7 @@ line-height: 45px;
     width: 100%;
     height:100px;
     margin-top: 10px;
-    transition-duration: .4s;
+    transition-duration:.8s;
     box-shadow: 0px .4px 3px white;
     /* border-radius:50px; */
 
@@ -813,7 +823,7 @@ line-height: 45px;
     width: 100%;
     height:100px;
     margin-top: 10px;
-    transition-duration:.4s;
+    transition-duration:.8s;
 
     /* background-color:greenyellow; */
 }
@@ -830,7 +840,7 @@ line-height: 45px;
     width: 100%;
     height:100px;
     margin-top: 10px;
-    transition-duration: .4s;
+    transition-duration:.8s;
     box-shadow: 0px .4px 3px white;
     /* border-radius:50px; */
 
@@ -842,7 +852,82 @@ line-height: 45px;
 
 
 /* six section end here  */
+.rating {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+	gap: 3px;
+	padding: 10% 0;
+}
+.review-card {
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 20px;
+	width: 300px;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.img-area {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 25px;
+}
+.img-area img {
+	width: 100%;
+}
+.header-content {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.info h4 {
+	margin: 0;
+	font-size: 22px;
+	font-weight: 600;
+}
+.info p {
+	margin: 5px 0 0;
+	font-size: 14px;
+	font-weight: 400;
+	color: #666;
+}
+.single-review p {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7;
+	color: #333;
+}
+.review-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666;
+}
+.rating {
+	display: flex;
+}
+.rating span {
+	color: #000;
+	font-size: 18px;
+}
+.rating span.active {
+	color: #fbc02d;
+}
+@media screen and (max-width: 767px) {
+	.wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.review-card {
+		width: 85%;
+	}
+}
 
+/* rating section start here */
 
 /* seven section start here */
 .seven-section{

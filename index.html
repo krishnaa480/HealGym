@@ -9,11 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"> -->
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+
+<!-- google fonts here -->
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="icon" type="image/x-icon" href="./img/Panna_health_club_logo_crop.jpg">
 <script src="./js/jquery-3.6.3.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
 
@@ -35,6 +41,8 @@
           <a href="#"><i class="fas fa-align-left About"></i>About</a>
       
           <a href="./Registration.html"><i class="fas fa-headset Contact"></i>Contact</a>
+
+          <div id="google_translate_element"></div>
       
         </nav>
       
@@ -77,7 +85,7 @@
           <div class="card" >
             <div class="imgbox">
               <img
-                src="./img/mentor2.jpg"
+                src="./img/kuldeep (1).jpg"
               />
             </div>
       
@@ -101,6 +109,22 @@
               </p>
             </div>
           </div>
+          <!-- personal trainer -->
+          <!-- <div class="card">
+            <div class="imgbox">
+              <img
+                src="./img/mentor3.jpg"
+              />
+            </div>
+      
+            <div class="content">
+              <h2>personal Trainer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                doloribus vitae fugit enim repudiandae
+              </p>
+            </div>
+          </div> -->
       </div>
     </body>
   </html>
@@ -153,7 +177,7 @@
        
         <div class="seprate">
           <h1>Trainer</h1>
-          <h3 id="fix-part">7:00 PM - 10:00 PM</h3>
+          <h3 id="fix-part">  &nbsp; &nbsp; 7:00 PM - 10:00 PM</h3>
           <button class="cstm-btn"><a href="./Registration.html">Shedule Now</a> </button>
         </div>
        
@@ -216,7 +240,9 @@
   <!-- five section start here  -->
   <section class="five-section">
     <div class="upper">
-        <div class="left-five"></div>
+        <div class="left-five">
+          <!-- <img src="./img/motivation.jpg" alt=""> -->
+        </div>
         <div class="right-five">
             <h1>Motivation</h1>
             <p>Success usually comes to those who are too busy to be looking for it.” -Henry David Thoreau</p>
@@ -230,7 +256,9 @@
         <h1>Equipment</h1>
         <p>¨If we could give every individual the right amount of nourishment and exercise, not too little and not too much, we would have found the safest way to health.¨ — Hippocrates</p>
       </div>
-      <div class="left-five1"></div>
+      <div class="left-five1">
+        <!-- <img src="./img/ten.jpg" alt=""> -->
+      </div>
     </div>
   </section>
   <!-- five section  end here -->
@@ -249,6 +277,84 @@
     </div>
   </section>
   <!-- six section end here  -->
+
+  <!-- rating section start here  -->
+  <div class="rating">
+		<div class="review-card">
+			<div class="header-content">
+				<div class="img-area">
+          <img alt="customer1" src="./img/profile_1.jpg">
+        </div>
+				<div class="info">
+					<h4>John Doe</h4>
+					<p>Maketing Manager</p>
+				</div>
+			</div>
+			<div class="single-review">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor eveniet deleniti repellendus! Minima, dolorum.</p>
+			</div>
+			<div class="review-footer">
+				<div class="rating">
+					<span class="active">★</span> 
+          <span class="active">★</span> 
+          <span class="active">★</span> 
+          <span class="">★</span> 
+          <span class="">★</span>
+				</div>
+				<p>Reviewed on 01/01/2023</p>
+			</div>
+		</div>
+		<div class="review-card">
+			<div class="header-content">
+				<div class="img-area">
+          <img alt="customer1" src="./img/profile_2.jpg">
+        </div>
+				<div class="info">
+					<h4>Mark Wood</h4>
+					<p>Graphics Expert</p>
+				</div>
+			</div>
+			<div class="single-review">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor eveniet deleniti repellendus! Minima, dolorum.</p>
+			</div>
+			<div class="review-footer">
+				<div class="rating">
+					<span class="active">★</span> 
+          <span class="active">★</span> 
+          <span class="">★</span> 
+          <span class="">★</span> 
+          <span class="">★</span>
+				</div>
+				<p>Reviewed on 01/02/2023</p>
+			</div>
+		</div>
+		<div class="review-card">
+			<div class="header-content">
+				<div class="img-area">
+          <img alt="customer1" src="./img/profile_3.jpg">
+        </div>
+				<div class="info">
+					<h4>Jason Chedd</h4>
+					<p>Web Designer</p>
+				</div>
+			</div>
+			<div class="single-review">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor eveniet deleniti repellendus! Minima, dolorum.</p>
+			</div>
+			<div class="review-footer">
+				<div class="rating">
+					<span class="active">★</span> 
+          <span class="active">★</span> 
+          <span class="active">★</span> 
+          <span class="active">★</span> 
+          <span class="active">★</span>
+				</div>
+				<p>Reviewed on 01/03/2023</p>
+			</div>
+		</div>
+	</div>
+
+  <!-- rating section end  here  -->
 
   <!-- seven section start here -->
   <section class="seven-section">
@@ -290,5 +396,7 @@
   <!-- eight section end here  -->
 
   <script src="./js/javascript.js"></script>
+  <!-- jqury cdn link here -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
