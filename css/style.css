@@ -15,6 +15,10 @@ body{
     background-color: black;
   
 }
+
+.weblogo{
+    border-radius: 100%;
+}
   
 /* navigation start here */
 .navbar{
@@ -33,6 +37,10 @@ body{
     top:5%;
     left: 2%;
     text-shadow: 0px !important;
+}
+
+.newlogo img{
+    border-radius:100%;
 }
 
 .ham-burger{
@@ -233,7 +241,7 @@ border-radius: 100%;
     border: 0px;
     padding: 10px;
     margin-top: 20px;
-    width: 120px;
+    width:auto;
     background-color: rgba(255, 75, 10, 0.88);
     color: white;
     letter-spacing: 1px;
